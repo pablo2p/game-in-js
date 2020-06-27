@@ -48,12 +48,12 @@ function setup() {
 
     soundGame.setVolume(volume);
     soundGame.loop();
-    somDoPulo.setVolume(volume);
 }
 
 function keyPressed() {
     if(key === 'ArrowUp') {
         personagem.pula();
+        somDoPulo.setVolume(volume);
         somDoPulo.play();
     }
 }
