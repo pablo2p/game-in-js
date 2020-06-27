@@ -32,7 +32,7 @@ function preload() {
     imagemInimigo = loadImage('./assets/imagens/inimigos/gotinha.png');
     soundGame = loadSound('./assets/sons/trilha_jogo.mp3');
     somDoPulo = loadSound('./assets/sons/somPulo.mp3');
-    volume = 0.1;
+    volume = 1;
 }
 
 function setup() {
