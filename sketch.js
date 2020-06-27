@@ -47,8 +47,8 @@ function setup() {
     frameRate(40);
 
     soundGame.setVolume(volume);
-    somDoPulo.setVolume(volume);
     soundGame.loop();
+    somDoPulo.setVolume(volume);
 }
 
 function keyPressed() {
