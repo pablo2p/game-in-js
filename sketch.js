@@ -10,6 +10,10 @@ function setup() {
     mainButton = new MainButton('Iniciar', width / 2, height / 2);
 }
 
+function mouseClicked() {
+    jogo.click();
+}
+
 function keyPressed() {
     jogo.keyPress(key);
 }

@@ -40,12 +40,19 @@ class Jogo {
 
         frameRate(40);
 
-        /* soundGame.setVolume(volume);
-        soundGame.loop(); */
+        soundGame.setVolume(volume);
+        soundGame.loop();
     }
 
     keyPress(key){
         if(key === 'ArrowUp') {
+            personagem.pula();
+            somDoPulo.setVolume(volume);
+        }
+    }
+
+    click(){
+        if(cenaAtual == 'jogo'){
             personagem.pula();
             somDoPulo.setVolume(volume);
         }
