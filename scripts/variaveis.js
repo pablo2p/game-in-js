@@ -2,8 +2,10 @@ let imagemCenario;
 let cenario;
 let imagemGameOver;
 let jogo;
+let imagemVida;
+let vida;
 
-let cenaAtual = 'telaInicial';
+let cenaAtual = 'jogo';
 let cenas;
 let telaInicial;
 let imagemInicial;
